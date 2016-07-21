@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The Android Open Source Project
+<!--
+     Copyright (C) 2017 The Pure Nexus Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,19 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-
-    <!-- Only visible when it is the first element in the list. -->
-    <View
-        android:id="@+id/header_extra_top_padding"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/list_header_extra_top_padding" />
-
-    <include layout="@layout/group_account_header_horizontal" />
-
-</LinearLayout>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="contacts_groups_label">Groups</string>
+    <string name="group_editor_title">Edit group</string>
+</resources>
