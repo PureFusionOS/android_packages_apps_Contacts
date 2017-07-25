@@ -16,6 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="contacts_groups_label">Groups</string>
-  <string name="group_editor_title">Edit group</string>
+  <string name="contacts_groups_label">グループ</string>
+  <string name="group_editor_title">グループの編集</string>
 </resources>
